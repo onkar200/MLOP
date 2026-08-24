@@ -6,12 +6,11 @@ os.makedirs("data", exist_ok=True)
 
 # Dataset
 data = {
-    "ID": [1, 2, 3, 4, 5],
-    "Name": ["Rahul", "Priya", "Amit", "Sneha", "Rohan"],
-    "Age": [21, 22, 20, 23, 21],
-    "Score": [85, 92, 78, 88, 95]
+    "ID": [1, 2, 3, 4, 5, 6],
+    "Name": ["Rahul", "Priya", "Amit", "Sneha", "Rohan", "Onkar"],
+    "Age": [21, 22, 20, 23, 21, 22],
+    "Score": [85, 92, 78, 88, 95, 90]
 }
-
 # Create DataFrame
 df = pd.DataFrame(data)
 
